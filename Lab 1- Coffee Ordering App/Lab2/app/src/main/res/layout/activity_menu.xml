@@ -1,0 +1,13 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lab2.menu.MenuActivity" android:background="@drawable/gunnybag_beans">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/coffee_menu_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" android:layout_marginTop="70dp" android:layout_marginStart="40dp" android:layout_marginLeft="25dp"/>
+</LinearLayout>

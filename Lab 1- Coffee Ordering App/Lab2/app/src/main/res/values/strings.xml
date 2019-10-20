@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="main_activity_label">The Lazy Bean</string>
+</resources>
