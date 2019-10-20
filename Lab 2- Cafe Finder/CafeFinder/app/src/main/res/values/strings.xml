@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CafeFinder</string>
+    <string name="title_activity_maps">Cafe Finder</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_activity_cafe_list">CafeListActivity</string>
+</resources>
