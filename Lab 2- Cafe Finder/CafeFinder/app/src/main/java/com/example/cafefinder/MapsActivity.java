@@ -174,7 +174,7 @@ public class MapsActivity extends FragmentActivity implements NavigationView.OnN
         googlePlaceUrl.append("&radius="+proximityRadius);
         googlePlaceUrl.append("&type="+cafe);
         googlePlaceUrl.append("&sensor=true");
-        googlePlaceUrl.append("&key="+"AIzaSyCbg9fLFMam8aWFYe27Gl9wx_k1ydIk35M");
+        googlePlaceUrl.append("&key="+"your api key");
 
         return googlePlaceUrl.toString();
     }
@@ -185,7 +185,7 @@ public class MapsActivity extends FragmentActivity implements NavigationView.OnN
         googlePlaceUrl.append("&radius="+500);
         googlePlaceUrl.append("&type="+"cafe");
         googlePlaceUrl.append("&sensor=true");
-        googlePlaceUrl.append("&key="+"AIzaSyCbg9fLFMam8aWFYe27Gl9wx_k1ydIk35M");
+        googlePlaceUrl.append("&key="+"your api key");
 
         String url = googlePlaceUrl.toString();
         Object[] dataTransfer = new Object[3];
